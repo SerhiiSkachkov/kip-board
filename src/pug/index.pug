@@ -1,0 +1,270 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset ='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description' content='')
+        meta(name='viewport' content='initial-scale=1.0, width=device-width')
+        link(href="https://fonts.googleapis.com/css?family=Roboto:200,400,500,700,900" rel="stylesheet")
+        link(rel='stylesheet' href='css/jquery.fancybox.min.css')
+        link(rel='stylesheet' href='css/styles.min.css')
+        title new
+    body
+        
+        include components/header.pug
+
+        main.main-wrap
+            section.categories
+                .wrapper
+                    .categories-wrapper
+                        .ctegories-content
+                            h3.title.title-primary Рубрики
+                            ul.categories-list
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_turizm.jpg")
+                                        .category-name Туризм
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_property.jpg")
+                                        .category-name Недвижимость
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_serv.jpg")
+                                        .category-name Услуги
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_moda.jpg")
+                                        .category-name Мода    
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_auto.jpg")
+                                        .category-name Транспорт
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_work.jpg")
+                                        .category-name Работа
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_afisha.jpg")
+                                        .category-name Афиша
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_helth.jpg")
+                                        .category-name Красота и здоровье
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_animals.jpg")
+                                        .category-name Животные
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_school.jpg")
+                                        .category-name Образование и Курсы
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_home.jpg")
+                                        .category-name Дом и Сад
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_electro.jpg")
+                                        .category-name Электроника
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_child.jpg")
+                                        .category-name Детский мир
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_school.jpg")
+                                        .category-name Спорт,отдых и хобби
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_love.jpg")
+                                        .category-name Знакомства
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_free.jpg")
+                                        .category-name Отдам даром / Бюро находок
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_fod.jpg")
+                                        .category-name Продукты питания
+                                li
+                                    a(href="/turizm" class="category")
+                                        .category-img
+                                            img(src="img/category_exchange.jpg")
+                                        .category-name Обмен
+                        .categories-aside
+                            .categories-aside-hat
+                                h2 Cyprus Board - Сервис объявлений № 1 
+                                p Это доска объявлений, которая создана для Вашего удобства. Функциональная интернет-платформа, позволит Вам быть в роли как продавца, так и покупателя. У нас Вы быстро сможете добавить свое объявление, а каждый желающий его сможет просмотреть. 
+
+                                p Всем удачных покупок и продаж :)
+                            ul.categories-aside-list
+                                li Удобный online сервис
+                                li Покупки в любом регионе Кипра
+                                li Ускоренная продажа
+                                li Неограниченное кол-во объявлений продавца
+                            .categories-aside-now Попробуйте прямо сейчас!
+                            a.btn-toadd(href="") Добавить бесплатное объявление
+            section.notice
+                .wrapper
+                    h3.title.text-center  Последние добавленные  обьявления
+                    .notice-box
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+                        a.notice-item(href="")
+                            .notice-ovr
+                            .notice-img
+                                img(src="img/notice_one.jpg", alt="notice")
+                            h3.notice-ttl L’atelier Kontor 202: магазин косметики и товаров для здоровья
+                            .notice-loc
+                                .notice-img-loc
+                                    img(src="img/notice_loc.png" alt="location")
+                                .notice-city Лимаcсол
+            section.about
+                .wrapper
+                   .about-wrapper
+                        h1 Cyprus Board - бесплатная доска объявлений №1 на Кипре
+                        p Все объявления рускоязычного Кипра размещены на 
+                            strong Cyprus Board. 
+                        p Интернет - платформа 
+                            strong Cyprus Board 
+                            | позволяет быстро продать или купить товар или услугу по всей территории Кипра. 
+                            br
+                            | Доска объявлений 
+                            strong Cyprus Board  
+                            | дает возможность оперативного поиска информации по рубрикам и разделам каталога сервиса.
+                        p Простота и удобство облегчит поиск любого интересующего Вас товара или услуги.  С легкостью, поможет Вам продать,  арендовать, сдать, купить, что бы то ни было: недвижимость, автомобиль, мебель, строй. материалы, электронику или любую услугу.
+                        p Разместите свое объявление на нашем сервисе, а мы поможем Вам найти клиента в кротчайшие сроки.
+                        p Доска объявлений 
+                            strong Cyprus Board 
+                            | незаменима для тех, кто ищет товары и услуги. Подробный и удобный рубрикатор сайта охватывает все сферы интересов наших пользователей.
+                        p 
+                            strong Доска объявлений Кипра - Cyprus Board 
+                            |- это новая специализированная интернет платформа, разработанная для размещения рекламных объявлений для всех русскоговорящих на Кипре 
+            section.rubric
+                .wrapper
+                    ul.rubric-list
+                        li 
+                            p 
+                                strong Рубрики на сайте
+                        li 
+                            a(href="") Туризм,
+                        li 
+                            a(href="") Недвижимость,
+                        li 
+                            a(href="") Услуги,
+                        li 
+                            a(href="") Мода и стиль,
+                        li 
+                            a(href="") Транспорт,
+                        li 
+                            a(href="") Работа,
+                        li 
+                            a(href="") Афиша,
+                        li 
+                            a(href="") Красота и здоровье,
+                        li 
+                            a(href="") Животные,
+                        li 
+                            a(href="") Образование и курсы,
+                        li 
+                            a(href="") Дом и сад,
+                        li 
+                            a(href="") Электроника,
+                        li 
+                            a(href="") Детский мир,
+                        li 
+                            a(href="") Спорт, 
+                        li 
+                            a(href="") отдых и хобби,
+                        li 
+                            a(href="") Знакомства,
+                        li 
+                            a(href="") Развлечения,
+                        li 
+                            a(href="") Отдам даром Бюро находок,
+                        li 
+                            a(href="") Продукты питания,Обмен,
+
+
+        include components/footer.pug                        
+        include components/script.pug

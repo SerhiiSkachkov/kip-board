@@ -1,0 +1,284 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset ='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description' content='')
+        meta(name='viewport' content='initial-scale=1.0, width=device-width')
+        link(href="https://fonts.googleapis.com/css?family=Roboto:200,400,500,700,900" rel="stylesheet")
+        link(rel='stylesheet' href='css/jquery.fancybox.min.css')
+        link(rel='stylesheet' href='css/styles.min.css')
+        title new
+    body
+        
+        include components/header.pug
+
+        main.main-wrap
+            .breadcrumbs
+                .wrapper
+                  ul.breadcrumbs-list
+                    li
+                        a(href="") Главная
+                        span /
+                    li Услуги
+            section.categories.categories-mod
+                .wrapper
+                    h2.title Услуги на Кипре
+                    ul.categories-list.categories-list-board
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_turizm.jpg")
+                                .category-name Туризм
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_property.jpg")
+                                .category-name Недвижимость
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_serv.jpg")
+                                .category-name Услуги
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_moda.jpg")
+                                .category-name Мода    
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_auto.jpg")
+                                .category-name Транспорт
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_work.jpg")
+                                .category-name Работа
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_afisha.jpg")
+                                .category-name Афиша
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_helth.jpg")
+                                .category-name Красота и здоровье
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_animals.jpg")
+                                .category-name Животные
+                        li
+                            a(href="/turizm" class="category")
+                                .category-img
+                                    img(src="img/category_school.jpg")
+                                .category-name Образование и Курсы
+            section.board
+                .wrapper
+                    .board-box.board-box-premium
+                        h2.title Премиум обьявления
+                        ul.board-list
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                    .board-item-img-top 
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                    .board-item-img-top 
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                    .board-item-img-top 
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                    .board-item-img-top 
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                    .board-item-img-top 
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+
+                    .board-box
+                        h2.title Обычные обьявления
+                        ul.board-list
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:174:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+                            li.board-item
+                                a.board-img-link(href="")
+                                    .board-item-img
+                                        img(src="img/board.jpg" alt="board-img")
+                                .board-info
+                                    a.board-link-ttl(href="") К.С. SAVERIADES & CO LLC: АДВОКАТЫ И ЮРИДИЧЕСКИЕ КОНСУЛЬТАЦИИ НА КИПРЕ
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                .board-item-price Цена договорная
+
+        include components/footer.pug                        
+        include components/script.pug

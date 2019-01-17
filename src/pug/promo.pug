@@ -1,0 +1,137 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset ='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description' content='')
+        meta(name='viewport' content='initial-scale=1.0, width=device-width')
+        link(href="https://fonts.googleapis.com/css?family=Roboto:200,400,500,700,900" rel="stylesheet")
+        link(rel='stylesheet' href='css/jquery.fancybox.min.css')
+        link(rel='stylesheet' href='css/styles.min.css')
+        title new
+    body
+        
+        include components/header.pug
+
+        main.main-wrap
+            .breadcrumbs
+                .wrapper
+                  ul.breadcrumbs-list
+                    li
+                        a(href="") Главная
+                        span /
+                    li
+                        a(href="") Услуги
+                        span /
+                    li Строительные услуги
+            section.promo
+                .wrapper
+                    .promo-box
+                        .promo-content
+                            .promo-board
+                                h2.promo-board-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+                                .promo-board-img
+                                    img(src="img/getimg.jpg", alt="board-img")
+                                .promo-board-info
+                                    .info.info-price
+                                        span.icon.icon-tag
+                                        | Цена договорная
+                                    a.info.info-phone-number(href="tel:+380671552636")
+                                        span.icon.icon-phone    
+                                        | +38 (067) 155 26 36 
+                                    .info.info-location
+                                        span.icon.icon-location
+                                        | Кипр
+                                    .info.info-number 
+                                        span.icon.icon-number
+                                        | Номер: 123456
+                                    .info.info-time 
+                                        span.icon.icon-clock
+                                        | 2019/01/11 18:34:17
+                                    a.info.info-other(href="")
+                                        span.icon.icon-list
+                                        | Другие объявления автора
+                                .promo-board-about
+                                    p Kalavazides Blinds & Shutters: жалюзи и тенты на Кипре
+                                    p Начиная с 1970 года, компания Kalavazides Blinds and Shutters производит шторы, жалюзи и тенты на Кипре, предлагая клиентам высокое качество и модный дизайн продукции по доступным ценам.
+                                    p На сегодняшний день компания располагает собственными офисами, выставочными залами в Никосии и Лимассоле, заводом и складом. 
+                                    p Kalavazides Blinds and Shutters предлагает системы затенения и автоматического открывания с использованием новейших технологий, отвечающих эстетическим и эксплуатационным требованиям любого проекта. 
+                                    p Вся продукция компании Kalavazides Blinds and Shutters соответствует последним требованиям рынка и доставляется от лучших поставщиков в Европе с самыми высокими стандартами производства.
+                                    p Использование современных систем затенения Kalavazides Blinds and Shutters позволяет экономить энергию и создавать комфортные условия в любом помещении и на улице. 
+                                ul.promo-board-gallery
+                                    li
+                                        a(href="img/getimg (1).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (1).jpg", alt="board-img")
+                                    li
+                                        a(href="img/getimg (2).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (2).jpg", alt="board-img")
+                                    li
+                                        a(href="img/getimg (3).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (3).jpg", alt="board-img") 
+                                    li
+                                        a(href="img/getimg (1).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (1).jpg", alt="board-img")
+                                    li
+                                        a(href="img/getimg (2).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (2).jpg", alt="board-img")
+                                    li
+                                        a(href="img/getimg (3).jpg" data-fancybox="gallery")
+                                           img(src="img/getimg (3).jpg", alt="board-img") 
+                        .promo-side
+                            .promo-board-info
+                                .info.info-price
+                                    span.icon.icon-tag
+                                    | Цена договорная
+                                a.info.info-phone-number(href="tel:+380671552636")
+                                    span.icon.icon-phone    
+                                    | +38 (067) 155 26 36 
+                                .info.info-location
+                                    span.icon.icon-location
+                                    | Кипр
+                                .info.info-number 
+                                    span.icon.icon-number
+                                    | Номер: 123456
+                                .info.info-time 
+                                    span.icon.icon-clock
+                                    | 2019/01/11 18:34:17
+                                a.info.info-other(href="")
+                                    span.icon.icon-list
+                                    | Другие объявления автора
+            section.promo-other
+                .wrapper
+                    h2.promo-other-ttl Другие обьявления в этом разделе
+                    ul.promo-other-list.js-promo-other
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (1).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ      
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (2).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (3).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (1).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (2).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+                        li
+                            a.promo-other-item(href="")
+                                .promo-other-item-img
+                                    img(src="img/getimg (3).jpg", alt="board-img")
+                                h3.promo-other-item-ttl KALAVAZIDES BLINDS & SHUTTERS: ЖАЛЮЗИ И ТЕНТЫ НА КИПРЕ
+
+
+        include components/footer.pug
+        include components/script.pug

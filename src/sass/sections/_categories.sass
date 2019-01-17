@@ -1,0 +1,125 @@
+.categories
+    padding-bottom: 30px
+
+.categories-mod
+    padding-bottom: 0px
+
+.categories-mod .title
+    color: $primary-color
+
+.categories-list li
+    height: 50px
+    border-bottom: 1px solid $primary-color
+
+.categories-list li:last-child
+    border: none
+
+.category
+    display: flex
+    align-items: center
+    color: $dark-color
+    padding: 5px 0px
+    position: relative
+    &:hover
+      color: $primary-color
+
+.category:before
+    content: ''
+    display: block
+    position: absolute
+    right: 5px
+    width: 10px
+    height: 10px
+    border-right: 1px solid $primary-color
+    border-bottom: 1px solid $primary-color
+    transform: rotate(-45deg)
+
+.category-img
+    width: 40px
+    height: auto
+    margin-right: 20px
+
+.category-img img
+    height: 40px
+    width: auto
+
+.categories-aside-hat h2
+    font-size: 20px
+    margin: 10px 0px
+    text-align: center
+
+.categories-aside-hat p
+    margin-bottom: 10px
+
+.categories-aside-list li 
+    padding: 0px 5px 5px 25px
+    background: url(../img/plus.png) top left no-repeat/auto
+    margin-bottom: 10px
+    font-weight: bold
+
+.categories-aside-now
+    margin: 10px 0px 10px
+    text-transform: uppercase
+
+.categories-aside > .btn-toadd
+    margin: 0 auto
+
+@media(min-width: 768px)
+  .categories-aside-hat h2
+      font-size: 30px
+  .categories-list
+      display: flex
+      flex-flow: wrap
+      padding: 15px 0px
+  .categories-list li
+      border: none
+      width: 25%
+      margin-bottom: 10px
+      padding-right: 10px
+  .categories-list li a:before
+      display: none
+  .category-img
+      width: 50px
+  .category-name
+      height: 34px
+      overflow: hidden
+  .categories-aside-now
+      margin: 20px 0px
+
+@media(min-width: 992px)
+  .category
+      flex-flow: wrap
+      justify-content: center
+      text-align: center
+      margin-bottom: 5px
+  .category-name
+      width: 100%
+  .category-img
+      width: 100%
+      text-align: center
+      margin-right: 0px
+      margin-bottom: 4px
+  .category-img img
+      height: auto
+      max-height: 64px
+  .categories-wrapper
+      display: flex
+      justify-content: space-between
+  .categories-list li
+      height: auto
+  .categories-list-board li 
+      width: 20%
+  .ctegories-content
+      width: 65%
+  .ctegories-content h3
+      display: none
+  .categories-aside
+      width: 30%
+  .categories-aside-hat h2 
+      font-size: 16px
+  .categories-aside-now
+      text-align: center
+  .categories-aside>.btn-toadd
+      margin: 0px
+  .categories-mod .title
+      font-size: 30px

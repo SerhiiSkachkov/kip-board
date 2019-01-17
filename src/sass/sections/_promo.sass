@@ -1,0 +1,175 @@
+.promo-box
+    padding: 20px 0px
+
+.promo-board
+    padding: 10px 5px 
+    border: 1px solid #33c11c
+    background: #eaf9e8
+    border-radius: 4px
+
+.promo-board-ttl
+    margin-bottom: 10px
+
+.promo-board-about
+    padding: 5px 0px
+
+.promo-board-img 
+    margin-bottom: 10px
+
+.promo-board-img img
+    display: block
+    width: 100%
+
+.promo-board-about p 
+    margin-bottom: 10px
+
+.promo-board-gallery
+    display: flex
+    flex-flow: wrap
+
+.promo-board-gallery li
+    width: 49%
+    margin-right: 2%
+    margin-bottom: 2%
+
+.promo-board-gallery li:nth-of-type(2n)
+    margin-right: 0px
+
+.promo-board-gallery li a
+    display: block
+    img
+        display: block
+        width: 100%
+
+.promo-board-info .info
+    font-size: 16px
+    margin-bottom: 10px
+    color: gray
+.promo-board-info .icon
+    margin-right: 10px
+    color: $primary-color
+
+.promo-side
+    display: none
+
+a.info:hover
+    color: $primary-color
+
+.promo-other
+    padding: 20px 0px
+    width: 100%
+
+.promo-other-ttl
+    font-size: 18px
+    margin-bottom: 20px
+    padding-right: 100px
+
+.promo-other-item
+    padding: 0px 5px
+
+.promo-other-item-img
+    margin-bottom: 10px
+
+.promo-other-item-img img
+    display: block
+    width: 100%
+
+.promo-other-item-ttl
+    color: black
+    height: 48px
+    overflow: hidden
+    transition: 0.5s
+
+.promo-other-item:hover
+    .promo-other-item-ttl
+        color: $primary-color
+
+.promo-other-list
+    margin-left: -5px 
+    margin-right: -5px
+
+.promo-other-list > .slick-arrow
+    top: -45px
+
+.promo-other-list > .slick-next
+    width: 40px
+    height: 40px
+    right: 0px
+    &:before
+        content: ""
+        background: url(../img/arrow-right.png) center center no-repeat/cover
+        height: 40px
+        width: 40px
+        display: block
+
+.promo-other-list > .slick-prev
+    width: 40px
+    height: 40px
+    right: 60px
+    left: auto
+    &:before
+        content: ""
+        background: url(../img/arrow-right.png) center center no-repeat/cover
+        transform: rotate(180deg)
+        height: 40px
+        width: 40px
+        display: block
+
+@media(min-width: 540px)
+    .promo-board
+        padding: 10px 10px
+    .promo-board-gallery li
+        width: 32.5%
+        margin-right: 1.25%
+        margin-bottom: 1.25%
+    .promo-board-gallery li:nth-of-type(2n)
+        margin-right: 1.25%
+    .promo-board-gallery li:nth-of-type(3n)
+        margin-right: 0px
+    .promo-other-list > .slick-arrow
+        top: -40px
+    .promo-other-ttl
+        font-size: 20px
+
+@media(min-width: 768px)
+    .promo-board-ttl
+        font-size: 20px
+        margin-bottom: 20px
+    .promo-board-gallery li
+        width: 24%
+    .promo-board-gallery li:nth-of-type(3n)
+        margin-right: 1.25%
+    .promo-board-gallery li:nth-of-type(4n)
+        margin-right: 0px
+    .promo-board
+        padding: 20px 10px 20px
+    .promo-other-ttl 
+        font-size: 22px
+
+@media(min-width: 992px)
+    .promo-board-info
+        .info.info-price
+            font-size: 25px
+            color: #33c11c
+            font-weight: bold
+        .icon
+            font-size: 20px
+    .promo-side
+        display: block
+    .promo-box
+        display: flex
+        justify-content: space-between
+    .promo-side
+        width: 25%
+    .promo-content
+        width: 70%
+    .promo-board .promo-board-info
+        display: none
+    .promo-board-gallery li
+        width: 19%
+    .promo-board-gallery li:nth-of-type(4n)
+        margin-right: 1.25%
+    .promo-board-gallery li:nth-of-type(5n)
+        margin-right: 0px
+
+

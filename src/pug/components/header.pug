@@ -1,0 +1,22 @@
+header#header.header
+    .header-top
+        .wrapper
+            .header-top-box
+                a.logo(href="")
+                    img(src="img/logo.png", alt="logo")
+                .header-top-controls
+                    a.btn-add.js-add(href="") 
+                        span.icon.icon-plus
+                        span.btn-add-txt ДОБАВИТЬ БЕСПЛАТНОЕ ОБЪЯВЛЕНИЕ
+                    a.log.js-btn-log(href="")
+                        .log-txt Мой профиль
+                        span.icon.icon-user
+    .header-bottom
+        .wrapper
+            .header-bottom-box
+                .header-serch-form
+                    form#search.form-search(action="/search" method="post")
+                        .search-field
+                            input(type="text" placeholder="Что Вы ищите?")
+
+                        input.btn.btn-search(type="submit" value="Найти")

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <title>new</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-top">
+        <div class="wrapper">
+          <div class="header-top-box"><a class="logo" href=""><img src="img/logo.png" alt="logo"></a>
+            <div class="header-top-controls"><a class="btn-add js-add" href=""> <span class="icon icon-plus"></span><span class="btn-add-txt">ДОБАВИТЬ БЕСПЛАТНОЕ ОБЪЯВЛЕНИЕ</span></a><a class="log js-btn-log" href="">
+                <div class="log-txt">Мой профиль</div><span class="icon icon-user"></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="wrapper">
+          <div class="header-bottom-box">
+            <div class="header-serch-form">
+              <form class="form-search" id="search" action="/search" method="post">
+                <div class="search-field">
+                  <input type="text" placeholder="Что Вы ищите?">
+                </div>
+                <input class="btn btn-search" type="submit" value="Найти">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-wrap">
+      <section class="categories">
+        <div class="wrapper">
+          <div class="categories-wrapper">
+            <div class="ctegories-content">
+              <h3 class="title title-primary">Рубрики</h3>
+              <ul class="categories-list">
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_turizm.jpg"></div>
+                    <div class="category-name">Туризм</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_property.jpg"></div>
+                    <div class="category-name">Недвижимость</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_serv.jpg"></div>
+                    <div class="category-name">Услуги</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_moda.jpg"></div>
+                    <div class="category-name">Мода    </div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_auto.jpg"></div>
+                    <div class="category-name">Транспорт</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_work.jpg"></div>
+                    <div class="category-name">Работа</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_afisha.jpg"></div>
+                    <div class="category-name">Афиша</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_helth.jpg"></div>
+                    <div class="category-name">Красота и здоровье</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_animals.jpg"></div>
+                    <div class="category-name">Животные</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_school.jpg"></div>
+                    <div class="category-name">Образование и Курсы</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_home.jpg"></div>
+                    <div class="category-name">Дом и Сад</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_electro.jpg"></div>
+                    <div class="category-name">Электроника</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_child.jpg"></div>
+                    <div class="category-name">Детский мир</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_school.jpg"></div>
+                    <div class="category-name">Спорт,отдых и хобби</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_love.jpg"></div>
+                    <div class="category-name">Знакомства</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_free.jpg"></div>
+                    <div class="category-name">Отдам даром / Бюро находок</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_fod.jpg"></div>
+                    <div class="category-name">Продукты питания</div></a></li>
+                <li><a class="category" href="/turizm">
+                    <div class="category-img"><img src="img/category_exchange.jpg"></div>
+                    <div class="category-name">Обмен</div></a></li>
+              </ul>
+            </div>
+            <div class="categories-aside">
+              <div class="categories-aside-hat">
+                <h2>Cyprus Board - Сервис объявлений № 1 </h2>
+                <p>Это доска объявлений, которая создана для Вашего удобства. Функциональная интернет-платформа, позволит Вам быть в роли как продавца, так и покупателя. У нас Вы быстро сможете добавить свое объявление, а каждый желающий его сможет просмотреть. </p>
+                <p>Всем удачных покупок и продаж :)</p>
+              </div>
+              <ul class="categories-aside-list">
+                <li>Удобный online сервис</li>
+                <li>Покупки в любом регионе Кипра</li>
+                <li>Ускоренная продажа</li>
+                <li>Неограниченное кол-во объявлений продавца</li>
+              </ul>
+              <div class="categories-aside-now">Попробуйте прямо сейчас!</div><a class="btn-toadd" href="">Добавить бесплатное объявление</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="notice">
+        <div class="wrapper">
+          <h3 class="title text-center"> Последние добавленные  обьявления</h3>
+          <div class="notice-box"><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a><a class="notice-item" href="">
+              <div class="notice-ovr"></div>
+              <div class="notice-img"><img src="img/notice_one.jpg" alt="notice"></div>
+              <h3 class="notice-ttl">L’atelier Kontor 202: магазин косметики и товаров для здоровья</h3>
+              <div class="notice-loc">
+                <div class="notice-img-loc"><img src="img/notice_loc.png" alt="location"></div>
+                <div class="notice-city">Лимаcсол</div>
+              </div></a></div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="wrapper">
+          <div class="about-wrapper">
+            <h1>Cyprus Board - бесплатная доска объявлений №1 на Кипре</h1>
+            <p>Все объявления рускоязычного Кипра размещены на <strong>Cyprus Board. </strong></p>
+            <p>Интернет - платформа <strong>Cyprus Board </strong>позволяет быстро продать или купить товар или услугу по всей территории Кипра. <br>Доска объявлений <strong>Cyprus Board  </strong>дает возможность оперативного поиска информации по рубрикам и разделам каталога сервиса.</p>
+            <p>Простота и удобство облегчит поиск любого интересующего Вас товара или услуги.  С легкостью, поможет Вам продать,  арендовать, сдать, купить, что бы то ни было: недвижимость, автомобиль, мебель, строй. материалы, электронику или любую услугу.</p>
+            <p>Разместите свое объявление на нашем сервисе, а мы поможем Вам найти клиента в кротчайшие сроки.</p>
+            <p>Доска объявлений <strong>Cyprus Board </strong>незаменима для тех, кто ищет товары и услуги. Подробный и удобный рубрикатор сайта охватывает все сферы интересов наших пользователей.</p>
+            <p> <strong>Доска объявлений Кипра - Cyprus Board </strong>- это новая специализированная интернет платформа, разработанная для размещения рекламных объявлений для всех русскоговорящих на Кипре </p>
+          </div>
+        </div>
+      </section>
+      <section class="rubric">
+        <div class="wrapper">
+          <ul class="rubric-list">
+            <li> 
+              <p> <strong>Рубрики на сайте</strong></p>
+            </li>
+            <li> <a href="">Туризм,</a></li>
+            <li> <a href="">Недвижимость,</a></li>
+            <li> <a href="">Услуги,</a></li>
+            <li> <a href="">Мода и стиль,</a></li>
+            <li> <a href="">Транспорт,</a></li>
+            <li> <a href="">Работа,</a></li>
+            <li> <a href="">Афиша,</a></li>
+            <li> <a href="">Красота и здоровье,</a></li>
+            <li> <a href="">Животные,</a></li>
+            <li> <a href="">Образование и курсы,</a></li>
+            <li> <a href="">Дом и сад,</a></li>
+            <li> <a href="">Электроника,</a></li>
+            <li> <a href="">Детский мир,</a></li>
+            <li> <a href="">Спорт, </a></li>
+            <li> <a href="">отдых и хобби,</a></li>
+            <li> <a href="">Знакомства,</a></li>
+            <li> <a href="">Развлечения,</a></li>
+            <li> <a href="">Отдам даром Бюро находок,</a></li>
+            <li> <a href="">Продукты питания,Обмен,</a></li>
+          </ul>
+        </div>
+      </section>
+    </main><!-- FOOTER -->
+    <footer class="foo">
+      <div class="wrapper">
+        <div class="foo-box">
+          <div class="foo-menu">
+            <ul class="foo-menu-list foo-copy">
+              <li> <a class="logo-foo" href=""><img src="img/logo.png" alt="logo"></a></li>
+              <li>© Cyprus-Board.com, 2018</li>
+              <li>Доска объявлений Кипр</li>
+              <li class="foo-pay"><img src="img/footer_pay.png" alt="logo"></li>
+            </ul>
+          </div>
+          <div class="foo-menu">
+            <ul class="foo-menu-list">
+              <li><a href="">О нас</a></li>
+              <li><a href="">Политика конфиденциальности</a></li>
+              <li><a href="">Публичная оферта</a></li>
+              <li><a href="">Обратная связь</a></li>
+              <li><a href=""> </a></li>
+            </ul>
+          </div>
+          <div class="foo-menu">
+            <ul class="foo-menu-list">
+              <li><a href="">Платные услуги</a></li>
+              <li><a href="">Условия использования</a></li>
+              <li><a href="">Партнеры</a></li>
+            </ul>
+          </div>
+          <div class="foo-menu">
+            <ul class="foo-menu-list">
+              <li>График работы Сall-центра</li>
+              <li>В будние дни с 9 до 21</li>
+              <li>Суббота 10 до 18</li>
+              <li>Воскресенье 10 до 18</li>
+              <li class="foo-menu-list-phone"><img src="img/tel.png" alt="tel"><span>0 800 770 18</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>

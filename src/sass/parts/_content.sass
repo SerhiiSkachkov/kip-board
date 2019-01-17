@@ -1,0 +1,177 @@
+@import "../helpers/mixins"
+@import "../helpers/variables"
+
+html 
+  -webkit-box-sizing: border-box
+          box-sizing: border-box
+  -ms-overflow-style: scrollbar
+
+*, ::after, ::before 
+  -webkit-box-sizing: inherit
+          box-sizing: inherit
+
+.wrapper
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+  margin-right: auto
+  margin-left: auto
+
+@media (min-width: 576px) 
+  .wrapper
+    max-width: 540px 
+
+@media (min-width: 768px) 
+  .wrapper
+    max-width: 720px 
+
+@media (min-width: 992px) 
+  .wrapper
+    max-width: 960px 
+
+@media (min-width: 1200px) 
+  .wrapper
+    max-width: 1030px
+
+body
+    display: block
+    width: 100%
+    height: 100%
+    background-color: #fff
+
+.clearfix:after 
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.main-wrap
+    margin: 0 auto  
+    overflow: hidden
+    padding-bottom: 30px
+    
+.hidden
+  display: none
+//buttons
+
+.title
+    font-size: 22px
+    margin: 10px 0px
+
+
+.title_middle
+    font-size: 18px
+
+.title_small
+    font-size: 16px
+
+/* text position */
+
+.text-left 
+    text-align: left!important
+
+.text-center 
+    text-align: center!important
+
+
+.text-right 
+    text-align: right!important
+
+.btn
+    background-color: $secondary-color  
+    border-radius: 3px
+    border: 1px solid $secondary-color 
+    color: $white-color
+
+.btn:hover
+    background-color: white
+    color: $secondary-color 
+
+.btn-transparent
+    background: transparent
+    border: 1px solid $secondary-color
+
+.btn-search
+    width: 28%
+
+.btn-add
+    margin-right: 20px
+    border-radius: 50%
+    .icon
+    font-size: 30px
+    color: $primary-color
+    &-txt
+      transition: 0.5s
+      display: none
+
+.btn-toadd
+    background-color: #33c11c
+    border: 1px solid #33c11c
+    color: $white-color
+    display: block
+    width: 290px
+    height: 50px
+    font-size: 14px
+    text-align: center
+    line-height: 50px
+    font-weight: bold
+    border-radius: 4px
+    text-transform: uppercase
+    &:hover
+      color: $secondary-color
+      background: white
+
+.btn-log 
+    background-color: transparent
+    border: 1px solid $primary-color
+    color: $primary-color
+
+.breadcrumbs-list
+    display: flex
+
+.breadcrumbs-list li
+    color: $primary-color
+
+.breadcrumbs-list a
+    color: #636363
+    margin-right: 5px
+
+.breadcrumbs-list a:hover
+    color: $primary-color
+
+.breadcrumbs-list span
+    margin-right: 5px
+    color: #636363
+
+.about
+    padding: 20px 0px
+
+.about h1
+    font-size: 21px
+    text-align: center
+    margin-bottom: 10px
+
+.about p
+    margin-bottom: 15px
+
+.rubric-list li 
+    display: inline-block
+
+.rubric-list li a
+    color: #33c11c
+
+.rubric-list li a:hover
+    color: $primary-color
+
+.rubric-list li p
+    color: #636363
+
+@media (min-width: 768px)
+  .about h1 
+      font-size: 30px
+
+@media (min-width: 768px)
+  .about h1 
+      font-size: 35px
+      text-align: left
